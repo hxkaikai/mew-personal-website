@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1000" viewBox="0 0 1200 1000" role="img" aria-labelledby="title desc">
+<title id="title">Flow / 刀锋之间</title>
+<desc id="desc">原创抽象银蓝色悬浮几何刀片与流动轨迹。</desc>
+<defs>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4faff"/><stop offset=".22" stop-color="#829cac"/><stop offset=".39" stop-color="#edf6ff"/><stop offset=".48" stop-color="#42526b"/><stop offset=".62" stop-color="#b7d9f4"/><stop offset="1" stop-color="#31415c"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2=".2"><stop stop-color="#243146"/><stop offset=".45" stop-color="#7a9dbd"/><stop offset=".68" stop-color="#ecf9ff"/><stop offset="1" stop-color="#839eb9"/></linearGradient>
+  <linearGradient id="bevel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbfdff"/><stop offset=".35" stop-color="#bddbf0"/><stop offset="1" stop-color="#436385"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#6b9ac4" stop-opacity="0"/><stop offset=".48" stop-color="#93c8f0" stop-opacity=".65"/><stop offset="1" stop-color="#d5f0ff" stop-opacity="0"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#396193" stop-opacity=".27"/><stop offset="1" stop-color="#233759" stop-opacity="0"/></radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="6"/></filter>
+  <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="25" stdDeviation="22" flood-color="#000" flood-opacity=".45"/></filter>
+</defs>
+<ellipse cx="640" cy="490" rx="470" ry="460" fill="url(#glow)"/>
+<g fill="none" stroke="url(#line)">
+  <path d="M81 791C329 1013 966 815 1040 405S687-18 354 181" stroke-width="1"/>
+  <path d="M88 797C336 1019 973 821 1047 411S694-12 361 187" stroke-width=".5" opacity=".5"/>
+  <path d="M187 813C443 860 971 546 968 209" stroke-width="2"/>
+  <path d="M278 953C628 861 1016 400 878 113" stroke-width="1" opacity=".4"/>
+  <path d="M176 592C286 361 654 170 1019 246" stroke-width=".7" opacity=".6"/>
+</g>
+<g opacity=".4" filter="url(#soft)"><path d="M414 642L580 268L675 224L599 502Z" fill="url(#metal)"/></g>
+<g filter="url(#shadow)">
+  <path d="M371 835L580 279L728 152L650 506Z" fill="url(#metal)"/>
+  <path d="M371 835L646 376L728 152L650 506Z" fill="url(#edge)"/>
+  <path d="M371 835L630 393L646 376L650 506Z" fill="#13263c" opacity=".72"/>
+  <path d="M580 279L728 152L646 376L630 393Z" fill="url(#bevel)"/>
+  <path d="M371 835L580 279L586 286Z" fill="#e4f6ff" opacity=".65"/>
+  <path d="M539 863L801 439L851 229L889 417Z" fill="url(#metal)"/>
+  <path d="M539 863L833 457L851 229L889 417Z" fill="url(#edge)"/>
+  <path d="M539 863L827 475L833 457L889 417Z" fill="#0e2039" opacity=".6"/>
+  <path d="M801 439L851 229L833 457L827 475Z" fill="url(#bevel)"/>
+  <path d="M177 707L386 361L435 158L465 320Z" fill="url(#metal)" opacity=".9"/>
+  <path d="M177 707L417 378L435 158L465 320Z" fill="url(#edge)"/>
+  <path d="M386 361L435 158L417 378L405 402Z" fill="url(#bevel)"/>
+  <path d="M746 706L925 567L1037 329L1022 531Z" fill="url(#metal)" opacity=".75"/>
+  <path d="M746 706L971 558L1037 329L1022 531Z" fill="url(#edge)" opacity=".8"/>
+  <path d="M925 567L1037 329L971 558L956 571Z" fill="url(#bevel)"/>
+</g>
+<path d="M194 849C459 916 769 738 964 438" fill="none" stroke="url(#line)" stroke-width="1.3"/>
+<g fill="#bcdef8"><circle cx="957" cy="426" r="2" opacity=".7"/><circle cx="317" cy="671" r="1.5" opacity=".4"/><circle cx="781" cy="171" r="1" opacity=".5"/></g>
+</svg>
