@@ -1,0 +1,39 @@
+# Operating systems and editors
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local tools, dependencies and caches
+.openai/
+.codex/
+node_modules/
+__pycache__/
+*.pyc
+.cache/
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
+# Temporary files and deployment archives
+*.log
+*.tmp
+*.bak
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# dist/ is the website source and must be tracked.
