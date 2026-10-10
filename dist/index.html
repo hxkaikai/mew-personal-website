@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5f7">
+  <meta name="description" content="你好，我是胡轩恺。出生并长大于深圳福田，从计算机到经济学，保持好奇，尽兴热爱。来健身房找我。">
+  <meta property="og:title" content="胡轩恺 · 来健身房找我">
+  <meta property="og:description" content="从计算机，到经济学。以及，生活里的更多热爱。">
+  <meta property="og:type" content="website">
+  <title>胡轩恺 · 来健身房找我</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preload" href="assets/hero-poster.jpg" as="image" type="image/jpeg">
+  <link rel="stylesheet" href="hero-video.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="hero-video.js" defer></script>
+  <script src="fitness-video.js" defer></script>
+  <script src="portfolio-media.js" defer></script>
+  <script src="interests-carousel.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#about">跳到正文</a>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="主导航">
+      <a class="wordmark" href="#home" aria-label="胡轩恺，返回首页">XK<span class="wordmark-dot">.</span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="#home">首页</a><a href="#about">关于我</a><a href="#experience">实习经历</a><a href="#interests">精神世界</a>
+      </div>
+      <a class="nav-hello" href="#hello">Say hello <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" aria-controls="nav-links" aria-expanded="false" aria-label="打开导航菜单"><span></span><span></span></button>
+    </nav>
+  </header>
+  <main>
+    <section class="hero has-video" id="home" aria-labelledby="hero-title">
+      <div class="hero-scene">
+        <div class="hero-halo" aria-hidden="true"></div>
+        <div class="hero-inner wrap">
+          <div class="hero-copy">
+            <p class="eyebrow hero-eyebrow"><span class="hello-dot"></span> HELLO, I’M MEW</p>
+            <h1 id="hero-title" data-bind="name">胡轩恺<span class="blue-dot">.</span></h1>
+          </div>
+          <div class="hero-art">
+            <div class="hero-portrait" role="img" aria-label="胡轩恺的互动肖像，人物会随鼠标方向转头">
+              <img class="hero-poster" src="assets/hero-poster.jpg" width="960" height="540" alt="" fetchpriority="high" aria-hidden="true">
+              <video class="hero-video" id="hero-video" width="960" height="540" muted playsinline preload="none" poster="assets/hero-poster.jpg" disablepictureinpicture disableremoteplayback aria-hidden="true" tabindex="-1"></video>
+            </div>
+          </div>
+          <div class="hero-bottom"><span class="scroll-cue"><i aria-hidden="true"></i> SCROLL TO EXPLORE</span><div class="portrait-footer"><span class="portrait-hint"><i aria-hidden="true"></i><span id="portrait-hint">很高兴，认识你。</span></span><button class="portrait-toggle" id="portrait-toggle" type="button" aria-pressed="true" hidden>暂停跟随</button></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-space" id="about" aria-label="个人信息">
+      <div class="wrap">
+        <div class="section-meta reveal"><span class="eyebrow">01 / A LITTLE ABOUT ME</span><span class="tiny-label">理性与热爱，都有位置。</span></div>
+        <div class="personal-facts reveal">
+          <div class="fact"><span class="fact-label">BORN IN</span><strong>2001<span>.12</span></strong><p>十二月，故事开始。</p></div>
+          <div class="fact"><span class="fact-label">GROWN IN</span><strong>深圳<span>福田</span></strong><p>出生的地方，也是长大的地方。</p></div>
+          <div class="fact fact-coordinate"><span class="fact-label">MY COORDINATES / 去过的城市</span><div class="city-route"><span>深圳<small>2001 — 2020</small><i aria-hidden="true"></i></span><b aria-hidden="true"></b><span>厦门<small>2020 — 2024</small><i aria-hidden="true"></i></span><b aria-hidden="true"></b><span>北京<small>2024 — 至今</small><i aria-hidden="true"></i></span></div></div>
+        </div>
+        <div class="about-education" id="journey">
+          <p class="education-swipe-hint">左右滑动，查看学校经历</p>
+          <div class="education-timeline education-grid" id="education-list" role="group" aria-label="学校经历" tabindex="0">
+            <article class="education-card reveal"><div class="education-top"><span class="date">2020.09 — 2024.06</span><span class="degree-label">本科</span></div><div class="school-identity"><span class="school-emblem"><img src="assets/xmu-emblem.jpg" width="150" height="150" alt="厦门大学校徽" loading="lazy"></span><div class="school-name"><h3>厦门大学</h3><p class="school-en">XIAMEN UNIVERSITY</p></div></div><p class="major">计算机科学与技术</p><div class="education-bottom"><span>COMPUTER SCIENCE</span><span>01</span></div></article>
+            <article class="education-card economics-card reveal"><div class="education-top"><span class="date">2024.09 — 至今</span><span class="degree-label"><i></i> 硕士在读</span></div><div class="school-identity"><span class="school-emblem school-emblem--uir" role="img" aria-label="国际关系学院校徽"><img src="assets/uir-wordmark.png" width="417" height="81" alt="" loading="lazy"></span><div class="school-name"><h3>国际关系学院</h3><p class="school-en">UNIVERSITY OF INTERNATIONAL RELATIONS</p></div></div><p class="major">西方经济学</p><div class="education-bottom"><span>ECONOMICS</span><span>02</span></div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience section-space" id="experience" aria-labelledby="experience-title">
+      <div class="wrap">
+        <div class="section-meta reveal"><span class="eyebrow">02 / INTERNSHIPS</span><span class="tiny-label">在实践中，持续成长。</span></div>
+        <div class="experience-heading reveal"><h2 class="section-title" id="experience-title">实习经历<span class="blue-dot">.</span></h2><p class="section-description">从行业研究、产品设计，<br>到企业 AI 应用落地。</p></div>
+        <div class="internship-toolbar"><p class="internship-scroll-hint" id="internship-scroll-hint">左右滑动，浏览实习经历</p><div class="internship-controls" id="internship-controls" hidden><span class="internship-count" id="internship-count">4 段经历</span><button type="button" id="internship-prev" aria-label="上一段实习" aria-controls="internship-list" disabled><span aria-hidden="true">←</span></button><button type="button" id="internship-next" aria-label="下一段实习" aria-controls="internship-list"><span aria-hidden="true">→</span></button></div></div>
+        <div class="internship-grid reveal" id="internship-list" role="region" aria-labelledby="experience-title" aria-describedby="internship-scroll-hint" tabindex="0">
+          <article class="internship-card internship-card-current reveal"><div class="internship-top"><span class="internship-index">01</span><span class="internship-period">2026.07 — 至今</span><span class="internship-current-label">目前在职</span></div><h3>字节跳动</h3><p class="internship-role">飞书 · FDE / 前沿部署工程师</p><p class="internship-summary">ToB 场景 AI 方案落地与交付</p><ul class="internship-highlights"><li>基于飞书与豆包企业版，主导或参与多行业 AI 交付，覆盖光伏 CRM、银行流水自动对账、制造业车间智能报工、律所邮件结构化入库、金融票据自动归档、销售录音质检与跟进自动化、审批流智能审核等场景。</li><li>为北京、上海、广州「豆包企业版 AI 生产力大会」提供素材支持，为多家中小企业现场交付定制化 AI Demo，涉及需求拆解、方案设计与现场交付。</li></ul><div class="internship-tags"><span>AI 交付</span><span>飞书</span><span>豆包企业版</span></div></article>
+          <article class="internship-card reveal"><div class="internship-top"><span class="internship-index">02</span><span class="internship-period">2025.10 — 2026.03</span></div><h3>美团</h3><p class="internship-role">设计部 · 产品设计师</p><p class="internship-summary">AI 产品评测与交互设计</p><ul class="internship-highlights"><li>参与 NoCode / Catpaw 功能测试，围绕 4 类页面任务，对 4 款模型开展 150+ 轮 UI 生成评估并建立标准评测集；页面生成错误率降低约 22%，后续版本布局生成满意度提升 27%。</li><li>使用 Figma / MasterGo 完成 2 个核心模块的交互改版，用户调研反馈操作效率提升约 18%。</li><li>参与 PRD 撰写，通过 2 场用户访谈挖掘 9 条痛点，其中 6 条纳入版本迭代计划。</li></ul><div class="internship-tags"><span>UI 评测</span><span>Figma / MasterGo</span><span>用户研究</span></div></article>
+          <article class="internship-card reveal"><div class="internship-top"><span class="internship-index">03</span><span class="internship-period">2025.06 — 2025.09</span></div><h3>中信集团 · 北京鸿联九五</h3><p class="internship-role">技术中心 · 行研实习生</p><p class="internship-summary">智能体开发与行业研究</p><ul class="internship-highlights"><li>独立开发「财务助手」智能体，实现 BPO 行业 10+ 维度自动对比，获公司首届智能体大赛前三名。</li><li>分析 20+ 家竞品公司年报，完成 4 篇行业研究报告；财务数字化趋势结论被财务部用于季度规划。</li></ul><div class="internship-tags"><span>智能体开发</span><span>行业研究</span><span>财务分析</span></div></article>
+          <article class="internship-card reveal"><div class="internship-top"><span class="internship-index">04</span><span class="internship-period">2025.02 — 2025.05</span></div><h3>中国建材集团 · 中建材国贸</h3><p class="internship-role">市场部 · 实习生</p><p class="internship-summary">境外客户资质审核与风控支持</p><ul class="internship-highlights"><li>审核 40+ 个国家 / 地区的境外客户资质，累计处理客户信息、营业执照等材料超 300 份。</li><li>独立判断客户来源可靠性与资质合规性，协助完成客户及账户生效与风控流程。</li></ul><div class="internship-tags"><span>客户资质审核</span><span>国际业务</span><span>风控支持</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="interests section-space" id="interests" aria-labelledby="interests-title">
+      <div class="wrap">
+        <div class="section-meta reveal"><span class="eyebrow">03 / BEYOND THE RÉSUMÉ</span><span class="tiny-label">下班之后，也很精彩。</span></div>
+        <h2 class="section-title interests-title reveal" id="interests-title">精神世界。</h2>
+        <div class="interests-toolbar"><p id="interests-hint">左右滑动，浏览全部兴趣</p><div class="interests-controls" id="interests-controls" hidden><span>5 个兴趣</span><button type="button" id="interests-prev" aria-label="上一张兴趣卡片" aria-controls="interests-track" disabled>←</button><button type="button" id="interests-next" aria-label="下一张兴趣卡片" aria-controls="interests-track">→</button></div></div>
+        <div class="interest-grid reveal" id="interests-track" role="region" aria-label="精神世界兴趣卡片" aria-describedby="interests-hint" tabindex="0">
+          <article class="interest-card sport-card has-fitness-video" aria-label="运动与户外">
+            <div class="card-head"><span class="eyebrow">MOVE. EXPLORE. REPEAT.</span><span class="card-category" id="sport-category">健身</span></div>
+            <h3>身体力行。<br><span>也是一种表达。</span></h3>
+            <div class="sport-media" id="fitness-media"><video class="sport-video" id="fitness-video" src="assets/fitness-6s.mp4" poster="assets/fitness-poster.jpg" width="720" height="1280" muted loop playsinline controls preload="none" aria-label="健身训练视频，时长 6 秒">浏览器不支持视频播放，<a href="assets/fitness-6s.mp4">查看健身视频</a>。</video></div>
+            <div class="sport-video-actions" id="fitness-actions" hidden><span class="sport-video-duration">00:06</span><button type="button" id="fitness-play" aria-controls="fitness-video" aria-label="播放健身视频">播放</button><button type="button" id="fitness-sound" aria-controls="fitness-video" aria-label="开启健身视频声音">开启声音</button></div>
+            <div class="sport-media" id="fishing-media" hidden><video class="sport-video" id="fishing-video" src="assets/fishing-6s.mp4" poster="assets/fishing-poster.jpg" width="720" height="1280" muted loop playsinline controls preload="none" aria-label="钓鱼视频，时长 6 秒">浏览器不支持视频播放，<a href="assets/fishing-6s.mp4">查看钓鱼视频</a>。</video></div>
+            <div class="sport-video-actions" id="fishing-actions" hidden><span class="sport-video-duration">00:06</span><button type="button" id="fishing-play" aria-controls="fishing-video" aria-label="播放钓鱼视频">播放</button><button type="button" id="fishing-sound" aria-controls="fishing-video" aria-label="开启钓鱼视频声音">开启声音</button></div>
+            <div class="sport-media sport-photo-media" id="hiking-media" hidden>
+              <div class="sport-photo-track" id="hiking-track" role="region" aria-label="徒步相册，可左右滑动查看四张照片" tabindex="0">
+                <figure class="sport-photo-slide"><img src="assets/hiking-01.jpg" alt="徒步照片 1：冰瀑前身穿红色外套的身影" loading="lazy" draggable="false"></figure>
+                <figure class="sport-photo-slide"><img src="assets/hiking-02.jpg" alt="徒步照片 2：沿着积雪的山间步道前行" loading="lazy" draggable="false"></figure>
+                <figure class="sport-photo-slide"><img src="assets/hiking-03.jpg" alt="徒步照片 3：背着背包眺望山间树林" loading="lazy" draggable="false"></figure>
+                <figure class="sport-photo-slide"><img src="assets/hiking-04.jpg" alt="徒步照片 4：蓝天下身穿红色冲锋衣的近照" loading="lazy" draggable="false"></figure>
+              </div>
+            </div>
+            <div class="sport-photo-actions" id="hiking-actions" hidden><span id="hiking-count" aria-live="polite" aria-atomic="true">1 / 4</span><button type="button" id="hiking-prev" aria-label="上一张徒步照片" aria-controls="hiking-track" disabled>←</button><button type="button" id="hiking-next" aria-label="下一张徒步照片" aria-controls="hiking-track">→</button></div>
+            <div class="sport-media sport-photo-media" id="climbing-media" hidden><img class="sport-photo" src="assets/climbing.jpg" alt="攀岩时在室内岩壁上寻找下一个支点" loading="lazy"></div>
+            <div class="sport-media sport-photo-media" id="fencing-media" hidden><img class="sport-photo" src="assets/fencing.jpg" alt="身穿击剑服，手持佩剑与护面" loading="lazy"></div>
+            <div class="sport-card-bottom"><p id="sport-line">下一组，继续。</p><div class="sport-tabs" role="group" aria-label="查看运动与户外兴趣"><button class="active" aria-pressed="true" data-sport="健身">健身</button><button aria-pressed="false" data-sport="徒步">徒步</button><button aria-pressed="false" data-sport="攀岩">攀岩</button><button aria-pressed="false" data-sport="击剑">击剑</button><button aria-pressed="false" data-sport="钓鱼">钓鱼</button></div></div>
+          </article>
+          <article class="interest-card music-card music-video-card" aria-label="音乐">
+            <div class="card-head"><span class="eyebrow">MUSIC</span><span class="card-category">音乐</span></div>
+            <h3>厦大信院十佳歌手</h3>
+            <div class="music-video-frame"><video class="music-video" id="music-video" src="assets/music-20-95.mp4" poster="assets/music-poster.jpg" width="1280" height="720" controls playsinline preload="none" aria-label="厦大信院十佳歌手，音乐现场视频，时长 1 分 15 秒">浏览器不支持视频播放，<a href="assets/music-20-95.mp4">查看音乐视频</a>。</video></div>
+          </article>
+          <article class="interest-card fashion-card portfolio-card" data-collection="fashion" aria-label="服装设计">
+            <div class="card-head"><span class="eyebrow">FASHION DESIGN</span><span class="card-category">服装设计</span></div>
+            <h3>把想法，<br>穿在身上。</h3>
+            <div class="portfolio-track" id="fashion-track" role="region" aria-label="服装设计手稿，可左右滑动" tabindex="0">
+              <figure class="portfolio-slide"><img src="assets/fashion-01.jpg" alt="设计手稿 01 · 廓形与细节" loading="lazy" draggable="false"></figure>
+              <figure class="portfolio-slide"><img src="assets/fashion-02.jpg" alt="设计手稿 02 · 领口与剪裁" loading="lazy" draggable="false"></figure>
+            </div>
+            <p class="portfolio-caption">2 张设计手稿</p>
+            <div class="portfolio-toolbar"><span class="portfolio-count" aria-live="polite" aria-atomic="true">1 / 2</span><div class="portfolio-arrows" hidden><button type="button" data-media-prev aria-label="上一张服装设计手稿" aria-controls="fashion-track" disabled>←</button><button type="button" data-media-next aria-label="下一张服装设计手稿" aria-controls="fashion-track">→</button></div><button type="button" class="portfolio-expand" data-dialog="fashion" aria-label="放大查看服装设计手稿">放大查看 ↗</button></div>
+          </article>
+          <article class="interest-card game-card portfolio-card" data-collection="game" aria-label="艾瑞莉娅">
+            <div class="card-head"><span class="eyebrow">LEAGUE OF LEGENDS</span><span class="card-category">游戏</span></div>
+            <h3>艾瑞莉娅。<br><span>刀锋起舞。</span></h3>
+            <div class="portfolio-track game-track" id="game-track" role="region" aria-label="艾瑞莉娅游戏视频，可切换三段视频" tabindex="0">
+              <figure class="portfolio-slide"><video src="assets/irelia-01.mp4" poster="assets/irelia-01-poster.jpg" width="1280" height="576" controls playsinline muted preload="none" aria-label="艾瑞莉娅操作片段 01">浏览器不支持视频播放，<a href="assets/irelia-01.mp4">查看视频 01</a>。</video></figure>
+              <figure class="portfolio-slide"><video src="assets/irelia-02.mp4" poster="assets/irelia-02-poster.jpg" width="1280" height="576" controls playsinline muted preload="none" aria-label="艾瑞莉娅操作片段 02">浏览器不支持视频播放，<a href="assets/irelia-02.mp4">查看视频 02</a>。</video></figure>
+              <figure class="portfolio-slide"><video src="assets/irelia-03.mp4" poster="assets/irelia-03-poster.jpg" width="1280" height="576" controls playsinline muted preload="none" aria-label="艾瑞莉娅操作片段 03">浏览器不支持视频播放，<a href="assets/irelia-03.mp4">查看视频 03</a>。</video></figure>
+            </div>
+            <p class="portfolio-caption">3 段完整视频 · 点击播放</p>
+            <div class="portfolio-toolbar"><span class="portfolio-count" aria-live="polite" aria-atomic="true">1 / 3</span><div class="portfolio-arrows" hidden><button type="button" data-media-prev aria-label="上一段艾瑞莉娅视频" aria-controls="game-track" disabled>←</button><button type="button" data-media-next aria-label="下一段艾瑞莉娅视频" aria-controls="game-track">→</button></div><button type="button" class="portfolio-expand" data-dialog="game" aria-label="放大观看艾瑞莉娅视频">放大观看 ↗</button></div>
+          </article>
+          <article class="interest-card models-card portfolio-card" data-collection="models" aria-label="模型玩具">
+            <div class="card-head"><span class="eyebrow">SMALL THINGS. BIG JOY.</span><span class="card-category">模型玩具</span></div>
+            <h3>小小世界。<br>大大热爱。</h3>
+            <div class="portfolio-track" id="models-track" role="region" aria-label="模型玩具相册，可左右滑动" tabindex="0">
+              <figure class="portfolio-slide"><img src="assets/models-01.jpg" alt="模型收藏 01 · 桌面上的小小伙伴" loading="lazy" draggable="false"></figure>
+              <figure class="portfolio-slide"><img src="assets/models-02.jpg" alt="模型收藏 02 · 骑士陈列" loading="lazy" draggable="false"></figure>
+              <figure class="portfolio-slide"><img src="assets/models-03.jpg" alt="模型收藏 03 · 银色铠甲" loading="lazy" draggable="false"></figure>
+              <figure class="portfolio-slide"><img src="assets/models-04.jpg" alt="模型收藏 04 · 红色机车" loading="lazy" draggable="false"></figure>
+            </div>
+            <p class="portfolio-caption">4 张收藏照片</p>
+            <div class="portfolio-toolbar"><span class="portfolio-count" aria-live="polite" aria-atomic="true">1 / 4</span><div class="portfolio-arrows" hidden><button type="button" data-media-prev aria-label="上一张模型玩具照片" aria-controls="models-track" disabled>←</button><button type="button" data-media-next aria-label="下一张模型玩具照片" aria-controls="models-track">→</button></div><button type="button" class="portfolio-expand" data-dialog="models" aria-label="放大查看模型玩具照片">放大查看 ↗</button></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="hello section-space" id="hello" aria-labelledby="hello-title"><div class="wrap hello-inner"><p class="eyebrow reveal">04 / LET’S CONNECT</p><p class="hello-prelude reveal">聊技术、经济、音乐，或下一组训练。</p><h2 class="reveal" id="hello-title">来健身房<br class="mobile-break">找我<span>.</span></h2><p class="hello-caption reveal">很高兴，你来到这里。</p><a class="back-to-top reveal" href="#home">回到顶部 <span aria-hidden="true">↑</span></a></div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="wordmark" href="#home" aria-label="返回首页">XK<span class="wordmark-dot">.</span></a><span>© <span id="copyright-year">2026</span> 胡轩恺</span><span>保持好奇。尽兴热爱。</span></div></footer>
+  <dialog class="detail-dialog" id="detail-dialog" aria-labelledby="dialog-title"><div class="dialog-shell"><button class="dialog-close" aria-label="关闭详情">×</button><div id="dialog-content"></div></div></dialog>
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}.menu-toggle{display:none}.nav-links{display:flex!important;position:static!important;box-shadow:none!important}.text-button,.round-button,.portfolio-expand{display:none!important}</style></noscript>
+</body>
+</html>
